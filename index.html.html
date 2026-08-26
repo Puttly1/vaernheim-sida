@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VÆRNHEIM — ordmärke på betong</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+  html,body{height:100%}
+  body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:clamp(26px,4vw,38px);
+    padding:32px;
+    box-sizing:border-box;
+    background:#F4F6F3;
+    font-family:'Archivo','Helvetica Neue',Arial,sans-serif;
+  }
+  .platta{
+    background:#B4B8B6;
+    padding:clamp(38px,7vw,64px) clamp(52px,10vw,92px);
+  }
+  .ordmarke{
+    font-variation-settings:'wdth' 118,'wght' 700;
+    letter-spacing:0.075em;
+    font-size:clamp(28px,6vw,52px);
+    line-height:1;
+    color:#17181A;
+    white-space:nowrap;
+    /* spärren lägger luft efter sista tecknet — kompenseras här */
+    margin-right:-0.075em;
+  }
+  .text{
+    max-width:46ch;
+    text-align:center;
+  }
+  .text p{
+    margin:0;
+    font-variation-settings:'wdth' 100,'wght' 400;
+    font-size:clamp(13.5px,1.6vw,15px);
+    line-height:1.55;
+    color:#5A5E5D;
+  }
+  .text hr{
+    width:32px;
+    height:1px;
+    margin:18px auto;
+    border:0;
+    background:#B4B8B6;
+  }
+  .text small{
+    display:block;
+    font-variation-settings:'wdth' 112,'wght' 500;
+    font-size:11px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:#8B8F8E;
+  }
+</style>
+</head>
+<body>
+  <div class="platta">
+    <div class="ordmarke">VÆRNHEIM</div>
+  </div>
+
+  <div class="text">
+    <p>100% recyclable 3D floor and boot mats, moulded to fit each car model.</p>
+    <hr>
+    <small>Launching autumn 2026</small>
+  </div>
+</body>
+</html>
